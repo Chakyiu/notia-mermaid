@@ -1,0 +1,11 @@
+[package]
+name = "notia-mermaid"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+description = "Local Mermaid renderer (flowchart and sequenceDiagram) that emits SVG"
+repository = "https://github.com/Chakyiu/notia-mermaid"
+readme = "README.md"
+publish = false
+
+[dependencies]

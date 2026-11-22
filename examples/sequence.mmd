@@ -1,0 +1,14 @@
+sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>Bob: Hello
+    Bob-->>Alice: Hi
+    Note over Alice,Bob: Greeting
+    loop Every minute
+        Alice->>Bob: Ping
+    end
+    alt Ok
+        Bob->>Alice: Pong
+    else Down
+        Bob->>Alice: Timeout
+    end
